@@ -1,0 +1,17 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "recreateShapelyDemo",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "recreate-shapely-demo",
+      "kebab-case"
+    ]
+  }
+}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SvgService } from '@recreate-shapely-demo/core-data'
 
 @Component({
   selector: 'recreate-shapely-demo-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'recreate-shapely-demo';
+  title = 'Shapely Demo';
+
+  constructor( private svgService: SvgService ){ }
 }

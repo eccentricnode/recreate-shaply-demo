@@ -1,0 +1,10 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$shaply-app-primary: mat-palette($mat-deep-purple, 50);
+$shaply-app-accent: mat-palette($mat-deep-purple, 400);
+
+$shaply-app-theme: mat-light-theme($shaply-app-primary, $shaply-app-accent);
+
+@include angular-material-theme($shaply-app-theme);

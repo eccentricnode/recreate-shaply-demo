@@ -9,10 +9,14 @@ import { CoreDataModule } from '@recreate-shapely-demo/core-data';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ThirdShowcaseComponent } from './home/third-showcase/third-showcase.component';
+import { ProjectsShowcaseComponent } from './home/projects-showcase/projects-showcase.component';
+import { CustomersCarouselComponent } from './home/customers-carousel/customers-carousel.component';
+import { ClientsCarouselComponent } from './home/clients-carousel/clients-carousel.component';
 
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent],
+  declarations: [AppComponent, HomeComponent, ThirdShowcaseComponent, ProjectsShowcaseComponent, CustomersCarouselComponent, ClientsCarouselComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

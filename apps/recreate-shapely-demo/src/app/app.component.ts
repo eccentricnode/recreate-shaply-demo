@@ -9,5 +9,7 @@ import { SvgService } from '@recreate-shapely-demo/core-data'
 export class AppComponent {
   title = 'Shapely Demo';
 
-  constructor( private svgService: SvgService ){ }
+  constructor( private implementSvgService: SvgService ) { 
+    this.implementSvgService.all_Icons();
+  }  
 }

@@ -1,0 +1,145 @@
+#showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/recreate_shaply_demo_assests/asset2.webp);
+  background-position: center;
+  color: #fff;
+  min-height: 900px;
+
+  h1 {
+    font-size: 60px;
+    margin: 0px 0px 24px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 0px 0px 24px;
+  }
+
+  .showcase-buttons {
+    display: flex;
+    justify-content: space-evenly;
+
+    button {
+      width: 200px;
+      padding: 13px 26px;
+      margin: 0px 8px 24px 0px;
+    }
+
+    button:hover {
+      opacity: 0.75;
+    }
+  }
+}
+
+#seo-friendly {
+  padding: 96px 0px;
+
+  .align-children {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    max-width: 100%;
+    width: 650px;
+    height: auto;
+  }
+
+  .text {
+    margin: 0px 0px 0px 97.5px;
+    padding: 0px 15px;
+    word-wrap: break-word;
+    width: 300px;
+
+    p {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    button {
+      width: 200px;
+      padding: 13px 26px;
+      margin: 0px 8px 24px 0px;
+    }
+
+    button:hover {
+      opacity: 0.75;
+    }
+  }
+}
+
+#portfolio-section {
+  background: #f5f5f5;
+  padding: 96px 0px;
+
+  .align-children {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    max-width: 100%;
+    width: 650px;
+    height: auto;
+  }
+
+  .text {
+    margin: 0px 0px 0px 97.5px;
+    padding: 0px 15px;
+    word-wrap: break-word;
+    width: 300px;
+
+    p {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    button {
+      width: 200px;
+      padding: 13px 26px;
+      margin: 0px 8px 24px 0px;
+    }
+
+    button:hover {
+      opacity: 0.75;
+    }
+  }
+}
+
+#second-showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/recreate_shaply_demo_assests/asset1.jpeg);
+  background-attachment: fixed; 
+  background-position: center;
+  color: #fff;
+  min-height: 500px;
+
+  h1 {
+    font-size: 60px;
+    margin: 0px 0px 24px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 0px 0px 24px;
+  }
+
+  button {
+    font-size: 16px;
+    width: 200px;
+    padding: 13px 26px;
+    margin: 0px 8px 24px 0px;
+  }
+
+  button:hover {
+    opacity: 0.75;
+  }
+}

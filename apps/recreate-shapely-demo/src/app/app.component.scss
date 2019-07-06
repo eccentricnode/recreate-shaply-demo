@@ -8,13 +8,13 @@ mat-toolbar{
     font-size: 24px; 
 }
 
-.links ul {
+.page-links ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
 
-.links a {
+.page-links a {
     text-decoration: none;
     color: black;
     font-size: 13px;
@@ -31,5 +31,14 @@ footer {
         margin: 0;
         color: #fff;
         padding: 72px 0;
+    }
+
+    .social-links ul {
+        display: flex;
+        list-style: none;
+
+        mat-icon {
+            color: #fff;
+        }
     }
 }

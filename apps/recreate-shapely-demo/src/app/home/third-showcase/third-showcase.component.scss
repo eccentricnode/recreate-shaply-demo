@@ -1,0 +1,25 @@
+#third-showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0px 0px;
+
+    .text {
+        text-align: center;
+        width: 700px;
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    button {
+        width: 200px;
+        padding: 13px 26px;
+        margin: 0px 8px 24px 0px;
+      }
+  
+      button:hover {
+        opacity: 0.75;
+      }
+}

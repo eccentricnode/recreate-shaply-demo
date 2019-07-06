@@ -5,6 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "deploy:dashboard-app": "ng build && cp ./dist/apps/recreate-shapely-demo/index.html ./dist/apps/recreate-shapely-demo/200.html && surge ./dist/apps/recreate-shapely-demo/ https://shapely-demo-recreation.surge.sh/",
     "build": "ng build",
     "test": "ng test",
     "lint": "nx lint && ng lint",

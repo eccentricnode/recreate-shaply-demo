@@ -1,9 +1,50 @@
 #projects-showcase {
+  background-color: rgb(14, 16, 21);
+
+  .projects-heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(14, 16, 21);
     color: #fff;
     padding: 96px 0px 0px;
+    p {
+      margin: 0px 0px 40px;
+    }
+  }
+
+  .projects-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    figure {
+      display: inline;
+      margin: 0;
+    }
+
+    figure img {
+      display: inline-block;
+      margin: 0;
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+
+    .image-text {
+      visibility: hidden;
+      color: #fff;
+      z-index: 5;
+    }
+
+    figure:hover .image-text {
+      visibility: visible;
+      transform: matrix(1, 0, 0, 1, 0, 50);
+      transition-delay: 0s;
+      transition-duration: 0.3s;
+      transition-property: all;
+      transition-timing-function: ease;
+      animation-direction: normal;
+    }
+  }
 }

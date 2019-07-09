@@ -22,6 +22,10 @@ mat-toolbar{
     margin: 0;
 }
 
+.page-links ul a:hover {
+    color: rgb(126, 87, 194);
+}
+
 footer {
     display: flex;
     justify-content: space-around;

@@ -38,6 +38,7 @@
     }
 
     figure:hover .image-text {
+      text-align: center;
       visibility: visible;
       transform: matrix(1, 0, 0, 1, 0, 50);
       transition-delay: 0s;

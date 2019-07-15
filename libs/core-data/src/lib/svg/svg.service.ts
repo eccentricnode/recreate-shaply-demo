@@ -21,35 +21,35 @@ export class SvgService {
   facebook_Icon() {
     this.matIconRegistry.addSvgIcon(
       'facebook_f',
-      this.domSanitizer.bypassSecurityTrustResourceUrl("./social-link-assets/facebook-f-brands.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/facebook-f-brands.svg")
     );
   }
 
   twitter_Icon() {
     this.matIconRegistry.addSvgIcon(
       'twitter',
-      this.domSanitizer.bypassSecurityTrustResourceUrl("./social-link-assets/twitter-brands.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/twitter-brands.svg")
     );
   }
 
   linkedIn_Icon(){
     this.matIconRegistry.addSvgIcon(
       'linkedIn',
-      this.domSanitizer.bypassSecurityTrustResourceUrl("./social-link-assets/linkedin-in-brands.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/linkedin-in-brands.svg")
     )
   }
 
   youtube_Icon() {
     this.matIconRegistry.addSvgIcon(
       'youtube',
-      this.domSanitizer.bypassSecurityTrustResourceUrl("./social-link-assets/youtube-brands.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/youtube-brands.svg")
     );
   }
 
   instagram_Icon() {
     this.matIconRegistry.addSvgIcon(
       'instagram',
-      this.domSanitizer.bypassSecurityTrustResourceUrl("./social-link-assets/instagram-brands.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/instagram-brands.svg")
     );
   }
 }

@@ -39,10 +39,18 @@ footer {
 
     .social-links ul {
         display: flex;
+        align-items: center;
         list-style: none;
+        padding: 72px 0;
+        margin: 0;
 
         mat-icon {
             color: #fff;
+            padding: 0px 8px 0px 10px;
+        }
+
+        mat-icon:hover {
+            color: rgb(126, 87, 194);
         }
     }
 }

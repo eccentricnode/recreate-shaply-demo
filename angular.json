@@ -24,7 +24,12 @@
             "tsConfig": "apps/recreate-shapely-demo/tsconfig.app.json",
             "assets": [
               "apps/recreate-shapely-demo/src/favicon.ico",
-              "apps/recreate-shapely-demo/src/assets"
+              "apps/recreate-shapely-demo/src/assets",
+              {
+                "glob": "**/*",
+                "input": "./libs/core-data/src/lib/svg/social-link-assets/",
+                "output": "./assets"
+              }
             ],
             "styles": [
               {

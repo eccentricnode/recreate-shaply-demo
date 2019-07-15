@@ -1,0 +1,21 @@
+#client-carousel {
+    background-image: url(../../../assets/recreate_shaply_demo_assests/asset0.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        font-size: 30px;
+        font-style: raleway;
+        padding: 24px 0px;
+    }
+
+    ul { 
+        list-style: none;
+    }
+}

@@ -18,34 +18,57 @@
     justify-content: center;
     flex-wrap: wrap;
 
-    figure {
-      display: inline;
+    .image-wrap {
+      display: relative;
       margin: 0;
+      &:hover {
+        .image-text {
+          visibility: visible !important;
+          opacity: 0.5 !important;
+        }
+      }
+      .img__img {
+        margin: 0;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        &:hover {
+          transition: all 300ms ease-in-out;
+          background-color: #000;
+          opacity: 0.5;
+          border-radius: 30px;
+          // @extend .da-text
+        }
+      }
+      .image-text {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #000;
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        transition: opacity 0.2s, visibility 0.2s;
+        // &:hover {
+        //   visibility: visible;
+        //   opacity: 0.5;
+        // }
+      }
     }
 
-    figure img {
-      display: inline-block;
-      margin: 0;
-      width: 100%;
-      max-width: 400px;
-      height: auto;
-    }
+    // .image-wrap:hover .img__img {
+    //   transition: all 300ms ease-in-out;
+    //   background-color: #000;
+    //   opacity: 0.5;
+    //   border-radius: 30px;
+    // }
 
-    .image-text {
-      visibility: hidden;
-      color: #fff;
-      z-index: 5;
-    }
-
-    figure:hover .image-text {
-      text-align: center;
-      visibility: visible;
-      transform: matrix(1, 0, 0, 1, 0, 50);
-      transition-delay: 0s;
-      transition-duration: 0.3s;
-      transition-property: all;
-      transition-timing-function: ease;
-      animation-direction: normal;
-    }
+    
   }
 }

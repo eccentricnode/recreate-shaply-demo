@@ -3,21 +3,14 @@
     What Our Customers Say
   </h3>
   <div class="carousel">
-    <ul>
-      <li>
-        <p></p>
-        <div>
-          <img src="" alt="">
-          <strong></strong>
-        </div>
-      </li>
-      <li>
-        <p></p>
-        <div>
-          <img src="" alt="">
-          <strong></strong>
-        </div>
-      </li>
-    </ul>
+   <recreate-shapely-demo-carousel>
+     <ng-container *ngFor="let item of testimonialItems;">
+      <ng-container *carouselItem>
+        <div class="item">{{item.testimonial}}</div>
+        <div class="item"><img src="item.imagePath"></div>
+        <div class="item">{{item.authorName}}</div>
+      </ng-container>
+     </ng-container>
+   </recreate-shapely-demo-carousel>
   </div>
 </section>

@@ -15,8 +15,8 @@ export class ProjectsShowcaseComponent implements OnInit {
     {image: 'assets/recreate_shaply_demo_assests/asset11.jpeg'},
     {image: 'assets/recreate_shaply_demo_assests/asset12.jpeg'},
     {image: 'assets/recreate_shaply_demo_assests/asset13.jpeg'},
-    {image: 'assets/recreate_shaply_demo_assests/asset14.jpeg'},
     {image: 'assets/recreate_shaply_demo_assests/asset15.jpeg'},
+    {image: 'assets/recreate_shaply_demo_assests/asset14.jpeg'},
   ];
 
   constructor() { }

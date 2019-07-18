@@ -13,11 +13,22 @@ import { ThirdShowcaseComponent } from './home/third-showcase/third-showcase.com
 import { ProjectsShowcaseComponent } from './home/projects-showcase/projects-showcase.component';
 import { CustomersCarouselComponent } from './home/customers-carousel/customers-carousel.component';
 import { ClientsCarouselComponent } from './home/clients-carousel/clients-carousel.component';
-import { CarouselComponent } from './home/customers-carousel/carousel.component';
+import { CarouselComponent, CarouselItemElement } from './home/customers-carousel/carousel.component';
+import { CarouselDirective } from './home/customers-carousel/carousel.directive';
 
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ThirdShowcaseComponent, ProjectsShowcaseComponent, CustomersCarouselComponent, ClientsCarouselComponent, CarouselComponent],
+  declarations: [
+    AppComponent, 
+    HomeComponent, 
+    ThirdShowcaseComponent, 
+    ProjectsShowcaseComponent, 
+    CustomersCarouselComponent, 
+    ClientsCarouselComponent, 
+    CarouselComponent, 
+    CarouselDirective,
+    CarouselItemElement
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

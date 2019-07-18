@@ -3,7 +3,9 @@ import { CarouselDirective } from './carousel.directive';
 import { animate, AnimationBuilder, AnimationFactory, AnimationPlayer, style } from "@angular/animations";
 
 @Directive({
-    selector: '.carousel-item'
+    /* tslint:disable-next-line */
+    selector: '.carouselItemDirective'
+    
 })
 export class CarouselItemElement { }
 
@@ -13,12 +15,12 @@ export class CarouselItemElement { }
     template: `
         <section class="carousel-wrapper" [ngStyle]="carouselWrapperStyle">
             <ul class="carousel-inner" #carousel>
-                <li *ngFor="let item of items;" class="carousel-item">
+                <li *ngFor="let item of items;" class="carouselItemDirective">
                     <ng-container [ngTemplateOutlet]="item.tpl"></ng-container>
                 </li>
             </ul>
         </section>
-        <div *ngIf="showControls" style="margin-top: 1em">
+        <div *ngIf="showControls" style="margin-top: 1em; display: flex; justify-content: space-around;">
             <button (click)="prev()" class="btn btn-default">Prev</button>
             <button (click)="next()" class="btn btn-default">Next</button>
         </div>
@@ -28,7 +30,6 @@ export class CarouselItemElement { }
             list-style: none;
             margin: 0;
             padding: 0;
-            width: 6000px;
         }
   
         .carousel-wrapper {
@@ -37,6 +38,7 @@ export class CarouselItemElement { }
   
         .carousel-inner {
             display: flex;
+            justify-content: space-around;
         }
   `]
 })

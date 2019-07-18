@@ -25,6 +25,7 @@
             "assets": [
               "apps/recreate-shapely-demo/src/favicon.ico",
               "apps/recreate-shapely-demo/src/assets",
+              "apps/recreate-shapely-demo/src/assets/recreate_shaply_demo_assests",
               {
                 "glob": "**/*",
                 "input": "./libs/core-data/src/lib/svg/social-link-assets/",

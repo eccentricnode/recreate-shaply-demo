@@ -14,7 +14,7 @@ export class CustomersCarouselComponent {
     },
     {
       "testimonial": 'Integer ut rutrum nulla, sit amet fringilla nisi. Nam nisl velit, vehicula at nibh sed, porttitor sollicitudin ante. Sed justo augue, vestibulum ut efficitur vitae, euismod et justo. Mauris sed mattis ante. Ut ligula lectus, consequat vitae neque ac, gravida hendrerit ante.',
-      "imagePath": '/assests/recreate_shaply_demo_assests/asset16.webp',
+      "imagePath": '/assets/recreate_shaply_demo_assests/asset16.webp',
       "authorName": 'John Doe'
     }
   ];

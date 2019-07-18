@@ -12,10 +12,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { ThirdShowcaseComponent } from './home/third-showcase/third-showcase.component';
 import { ProjectsShowcaseComponent } from './home/projects-showcase/projects-showcase.component';
 import { CustomersCarouselComponent } from './home/customers-carousel/customers-carousel.component';
-import { ClientsCarouselComponent } from './home/clients-carousel/clients-carousel.component';
-import { CarouselComponent, CarouselItemElement } from './home/customers-carousel/carousel.component';
-import { CarouselDirective } from './home/customers-carousel/carousel.directive';
-
 
 @NgModule({
   declarations: [
@@ -23,11 +19,7 @@ import { CarouselDirective } from './home/customers-carousel/carousel.directive'
     HomeComponent, 
     ThirdShowcaseComponent, 
     ProjectsShowcaseComponent, 
-    CustomersCarouselComponent, 
-    ClientsCarouselComponent, 
-    CarouselComponent, 
-    CarouselDirective,
-    CarouselItemElement
+    CustomersCarouselComponent,
   ],
   imports: [
     BrowserModule,
